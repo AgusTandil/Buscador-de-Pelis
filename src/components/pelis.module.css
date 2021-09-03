@@ -1,0 +1,17 @@
+.pelisGrilla {
+    display: grid; /* grid me va a permitir tener todos los <li> en columnas responsive */
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 100px; /* separacion de los elementos */
+    padding: 40px;
+    justify-content: center;
+}
+
+.fila {
+    list-style: none;
+    text-align: center;
+}
+
+
+.letraTitulo{
+    color:wheat
+}
