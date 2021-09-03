@@ -7,7 +7,7 @@ import  styles  from "../Lista.module.css";
         
         <li className = {styles.li}>
             <Link to = {`/pelis/${movie.imdbID}`}>
-            <img src = {movie.Poster}></img>
+            <img width ={230} height ={345}src = {movie.Poster}></img>
             </Link>
            
             <h3>{movie.Title}</h3>
