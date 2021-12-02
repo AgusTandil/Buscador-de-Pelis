@@ -18,6 +18,7 @@ Axios.get(`https://www.omdbapi.com/?i=${peliId}&apikey=5a4bcf11`)
     <div>
     <img src={peli.Poster}></img>
     </div>
+
     <h3 className ="letraTitulo">Titulo : {peli.Title}</h3>
     <p> <strong>Sinopsis :</strong>  {peli.Plot}</p>
     <div></div>

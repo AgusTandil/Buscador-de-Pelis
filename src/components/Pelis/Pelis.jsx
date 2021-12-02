@@ -139,23 +139,5 @@ export function Pelis() {
   );
 }
 
-/* class Pelis extends React.Component{
-  constructor(props){
-    super(props);
 
-  }
-  render(){
-    return(
       
-        <ul className = {style.pelisGrilla}   onClick = {() => this.props.selectPeli(this.props.imdbID)} >
-       {this.props.pelis.map(peli=>(
-         <li className = {style.fila}>
-           <img src = {peli.Poster}/>
-           <h3>{peli.Title}</h3>
-          </li>
-       ))} 
-       </ul >
-  
-    )
-}
-} */
